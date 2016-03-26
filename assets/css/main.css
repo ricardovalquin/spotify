@@ -1,0 +1,290 @@
+/*////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////*/
+/*///////////////////////////////RESET CSS////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////*/
+
+
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////*/
+/*///////////////////////////////RESET CSS////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////*/
+
+
+
+/* Universal Selectors */
+
+/*////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////*/
+/* Element Selectors */
+body{
+	background-color: #121314;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+hr{
+height: 1px;
+background-color: black;
+border: none;
+}
+
+h1{
+	font-size: 3em;
+}
+
+/*////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////*/
+/* Class, Attribute, and Pseudo Selectors */
+
+/*/////////////  ASIDE NAV   //////////////////*/
+.nav-bar{
+	background-color: #1C1C1F;
+	position: fixed;
+	float: left;
+	height: 100%;
+	width: 90px;
+}
+
+.nav-items{
+	list-style: none; 
+}
+
+.nav-item{
+	text-decoration: none;
+	color: #9FA1A2;
+}
+.nav-item:hover{
+	color: #ffffff;
+}
+
+.icon-nav-item{
+    top: 18px;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    font-size: 32px;
+}
+
+.top-nav-items{
+	border-bottom: 1px solid #9FA1A2;
+}
+
+.top-nav-items:before, .top-nav-items:after {
+    content: " ";
+    display: table;
+}
+
+.top-item:hover{
+    border-bottom: 2px solid #84BD00;
+}
+
+.profile-pic{
+	background-image: url("https://scontent.xx.fbcdn.net/hprofile-xlp1/v/t1.0-1/p50x50/12805817_10201450476861487_4963996898599571443_n.jpg?oh=a73abbf7b5a74f23b1278abbf043d576&oe=5784F3A9");
+	border-radius: 500px;
+	width: 50px;
+	height: 50px;
+	margin-left: 24%;
+	background-color: #121314;
+}
+
+
+/*/////////////   MAIN CONTENT   //////////////////*/
+.main-content{
+	width: 80%;
+	margin-left: 100px;
+	color: white;
+}
+
+
+/*/////////////   APP TITLE   //////////////////*/
+.app-title{
+    height: 10%;
+    padding: 2% 2%;
+}
+
+
+/*/////////////   TOP NAV   //////////////////*/
+.top-nav{
+	height: 43px;
+	/*position: fixed;
+	top: 0px;
+    z-index: 9;*/
+}
+
+.navbar-fixed-wrapper{
+	height: 44px;
+}
+
+.navbar{
+    position: relative;
+    z-index: 1000;
+    min-height: 25px;
+    background-color: rgba(18, 19, 20, 0.8);
+}
+
+.navbar:before, .navbar:after {
+    content: " ";
+    display: table;
+}
+
+
+
+/*////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////*/
+/* ID Selectors */
+
+/*/////////////   ASIDE NAV   //////////////////*/
+ul#ul-aside li.aside-li{
+	margin: 20% 0;
+	text-align: center;
+}
+
+ul#ul-aside li.aside-li:hover{
+	border-left: 2px solid #84BD00;
+}
+
+a#spoti-logo{
+    height: 34px;
+    margin: 0 5px;
+    background: url('../img/logo-navbar.png') no-repeat center;
+    background-size: 83%;
+}
+
+
+/*/////////////   TOP NAV   //////////////////*/
+ul#ul-top-nav li{
+	display: inline;
+	text-transform: uppercase;
+	margin: 0 15px;
+	font-size: 14px;
+}
+
+
+
+
+/*////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////*/
+/* !important Universal Selectors */
+
+
+/*////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////*/
+/* !important Element Selectors */
+
+
+/*////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////*/
+
+
+/* !important Class, Attribute, and Pseudo Selectors */
+
+
+/*////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////*/
+/* !important ID Selectors 
+
+

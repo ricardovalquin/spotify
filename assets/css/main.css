@@ -161,12 +161,16 @@ h1{
 	color: #ffffff;
 }
 
+.nav-item span{
+	font-size: 12px;
+}
+
 .icon-nav-item{
     top: 18px;
     left: 0;
     text-align: center;
     width: 100%;
-    font-size: 32px;
+    font-size: 22px;
 }
 
 .top-nav-items{
@@ -220,17 +224,54 @@ h1{
 }
 
 .navbar{
-    position: relative;
-    z-index: 1000;
-    min-height: 25px;
-    background-color: rgba(18, 19, 20, 0.8);
+  position: relative;
+  z-index: 1000;
+  min-height: 25px;
+  background-color: rgba(18, 19, 20, 0.8);
 }
 
 .navbar:before, .navbar:after {
-    content: " ";
-    display: table;
+  content: " ";
+  display: table;
 }
 
+
+/*/////////////   CONTENT   //////////////////*/
+
+.card{
+	width: 180px;
+	height: 180px;
+	/*background-color: red;*/
+	margin:10px 0;
+}
+
+.card-image{
+  background-image: url('https://t.scdn.co/media/derived/latin-274x274_befbbd1fbb8e045491576e317cb16cdf_0_0_274_274.jpg');
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.card-name{
+	position: relative;
+  top: 75%;
+  left: 30%;
+}
+
+.flex-container{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.flex-item{
+	margin: 5px;
+	padding: 5px;
+}
 
 
 /*////////////////////////////////////////////////////////////////////////////*/
@@ -248,10 +289,10 @@ ul#ul-aside li.aside-li:hover{
 }
 
 a#spoti-logo{
-    height: 34px;
-    margin: 0 5px;
-    background: url('../img/logo-navbar.png') no-repeat center;
-    background-size: 83%;
+  height: 34px;
+  margin: 0 5px;
+  background: url('../img/logo-navbar.png') no-repeat center;
+  background-size: 83%;
 }
 
 
@@ -264,7 +305,14 @@ ul#ul-top-nav li{
 }
 
 
-
+/*/////////////   TOP NAV   //////////////////*/
+#nav-messages, #nav-notifications, #nav-settings{
+	top: 18px;
+  left: 0;
+  text-align: center;
+  width: 100%;
+	font-size: 17px !important;
+}
 
 /*////////////////////////////////////////////////////////////////////////////*/
 /*////////////////////////////////////////////////////////////////////////////*/
